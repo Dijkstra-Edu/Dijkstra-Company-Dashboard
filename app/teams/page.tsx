@@ -11,7 +11,6 @@ import { useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ProfileData } from "@/components/profile-data";
-import Readme from "@/components/readme";
 
 export default function Page() {
   const [data, setData] = useState<any[]>([]);

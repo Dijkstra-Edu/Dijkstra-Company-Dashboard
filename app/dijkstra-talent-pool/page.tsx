@@ -11,7 +11,6 @@ import { useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ProfileData } from "@/components/profile-data";
-import Readme from "@/components/readme";
 import OpportunitiesPage from "@/components/opportunities/opportunities-page";
 
 export default function Page() {
